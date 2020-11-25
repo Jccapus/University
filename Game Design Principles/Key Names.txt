@@ -1,0 +1,22 @@
+	Key Names:
+Strock - Counter to tally potential points
+
+Disease - Playable Characters
+
+Departments - Aviation, Health, Transport, Nautical - The four divisions of companies
+	Company -  A company is a subdivision of a department. There are 3 subdivisions per department
+
+Events - Special end of turns card that has a written effect on it that effects applicable players
+	Mutation - A card that has a permanent change to your character written on it
+	World - A card that has an effect on everyone
+
+STIborne, Bloodborne, Airborne, Waterborne - A categegory of disease typically effected by event cards
+
+Deck Cards - The draw pile to pickup from on the pickup turn
+	Cure - A card which allows you to remove one strock from each player in the same company as you
+	Vaccine - A card which allows you to place this on a company to reduce all strock intake by one
+
+
+
+
+

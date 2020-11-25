@@ -1,0 +1,40 @@
+4 compartmental cards to earn strock in each of them
+--------------------
+Hey Charlie : )
+Health = Greeny Red
+Nautical = Blue
+Tranport = White
+Aviation = Yellow
+--------------------
+Discarding one of these from your hand at turn start will give you a stock into the specific area of which the card states
+Big strocks
+On turn spend all strock cards of one colour to gain strock in one company
+Two cards to be used to strock takeover
+Event cards - Effect a singular disease or player
+Cure cards- To be used to make everyone lose a single strock in one company
+World cards - Massive scale event cards to effect everyone
+
+Win condition - Person with most strock in a company gains the point for that company and whoever has the most points wins - Counted when strock deck is empty
+
+Pickup - (INput NuMBeR hErE) cards in the middle 
+		Pickup one and replace it with a card from the draw pile
+		Pickup as many cards as you want but replace it with the same number of cards in your hands
+		Pickup one random card from the draw pile
+2-4 player game
+8 selectable characters - 2 of STIborne 2 of waterborne 2 of bloodborne 2 of airborne
+Mutation cards to change transmission type
+
+Airborne characters - Travis Covid and Ivan Influenza
+Bloodborne characters - Sydney Syphilis and  Mr Mark Malaria
+Waternborne characters - Mrs Elaine.Coli and Colin Cholera
+STIborne characters - Carol Chlamydia and Gloria Gonorrhea
+Vaccine cards can be played to a company to increase to strock cost of said company by 1
+
+
+
+
+
+
+
+
+

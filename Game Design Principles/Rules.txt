@@ -1,0 +1,30 @@
+Official Rules:
+
+Before playing the players must pick a character from the choices of diseases available
+
+At the start of the players turn is the pickup phase where the player has a choice of three actions
+	1. Draw one strock card from the deck
+	2. Choose one card from the table and replace with a card from the deck
+	3. Pick up any number of cards and replace them with cards from the hand
+
+After the pickup phase the player can then play:
+	1. All strocks of the same colour onto a single company
+	2. No cards and pass their turn over to the next player
+
+After the player's turn they must pick up an event card
+
+2. Max hand size of six
+
+3. Last Person who was ill is the first player
+
+4. You win by having the most points at the end of the strock deck
+4.1 At the end of the game you gain 1 point if you have the most points in a company
+
+Cards consist of:
+Characters: A selectable disease that you choose at the start of the game
+Vacccine: Played under a company to reduce the strock intake by 1
+Cure: Played to a company to remove 1 strock from each player in said company - Player must have one strock in said company
+Event: Picked up at the end of each turn to effect the player
+World Event: Picked up at the end of each turn to effect all players
+Mutations: Permanent change to a playable character
+Strock: Played during a players turn to increase strock into a company

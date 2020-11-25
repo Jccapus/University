@@ -1,0 +1,69 @@
+This is a game to compete and earn the most stock (strock) in a company, or more likely many companies, to gain control and a point from that company, however you're not
+alone in this deadly competition as other diseases with fancy degrees are coming for the same prize. Do you think you can strock up to the task?
+
+Official Rules:
+
+Before playing the players must pick a character from the choices of diseases available and setup three different piles of cards (which are explained further below)
+These are the strock deck, the event deck and the table
+
+At the start of the players turn is the pickup phase where the player has a choice of three actions
+	1. Draw one strock card from the deck
+	2. Choose one card from the table and place a card from the deck onto the table
+	3. Pick up any number of cards and replace them with cards from the hand
+
+After the pickup phase the player can then play:
+	1. All strocks of the same colour onto a single company
+	2. No cards and pass their turn over to the next player
+
+After the player's turn they must pick up an event card
+
+2. Max hand size of six
+
+3. Last Person who was ill is the first player
+
+4. You win by having the most points at the end of the strock deck
+4.1 The strock you have in a company can go up and down all game depending on what you and other players do, once the strock deck has been emptied then
+whoever has the most strock in a company wins that company's point, furthermore whoever has the most points from all the companies wins the game
+
+Cards consist of:
+Characters: A selectable disease that you choose at the start of the game (Can be affected by mutations or events during the game)
+
+	Strock Deck:
+	Strock: Played during a players turn to increase strock into a company (they are colour coded based on the 4 colours of companies)
+	AKA a tally for how much you have in said company
+	Vaccine: Played under a company to reduce the strock intake by one
+	Cure: Played to a company to remove one strock from each player in said company - Player must have one strock in said company
+	
+	The Table:
+	Five cards from the Strock deck lay here facing up to be an alternative from picking from the strock deck
+
+	Event Deck:
+	Event: Picked up at the end of each turn to affect the player
+	World Event: Picked up at the end of each turn to affect all players
+	Mutations: Permanent change to a playable character
+
+Departments have two companies listed underneath and players may put strock into any
+
+Departments are (With companies to put strock into underneath):
+
+Health(Green):
+Hospital
+Pharmacy
+Dentist
+
+Nautical(Blue):
+Submarine
+Cargo Ship
+Yacht
+
+Tranport(White):
+Train
+Bus
+Car
+
+Aviation(Yellow):
+Planes
+Helicopter
+Rocket
+
+Companies have an infinite amount of strock limit so a player can put as much as they want into a company, but it comes at a risk of losing points at the end from others
