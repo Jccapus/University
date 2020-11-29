@@ -1,19 +1,32 @@
 <html>
     
 	<head>
-	
 	    <title>Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="ccs/style.css">
 		
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
 	</head>
-	
-	<div id="background2">
 		
+	<body style="background: rgb(200, 200, 200)">
 	
-	<body style="background-color: rgb(102, 102, 150)">
+		<div style="float: left; width: 10%; background: rgb(150, 150, 150); min-height: 1000px">
+		</div>
+		
+		<div style="float: right; width: 90%; background: rgb(100, 100, 100); min-height: 1000px">
+		
+			<div style="float: left; padding: 50px">
+			<model-viewer skybox-image="Models/wide_street_01_1k.hdr" style="height: 500px; width: 500px" src="Models/DamagedHelmet.gltf" camera-controls></model-viewer>
+			</div>
+			
+		</div>
+			
+		<div style="position: fixed; left: 0; top: 0; width: 100%; height: 3rem; background: rgb(200, 200, 200)">
+		</div>
+		
+		<div style="position: fixed; left: 0; bottom: 0; width: 100%; height: 3rem; background: rgb(200, 200, 200)">
+		</div>
+		
+	</body>
 	
-	<div id="footer">
-	    <br />
-		Joel Capp
-	</div>
 </html>
