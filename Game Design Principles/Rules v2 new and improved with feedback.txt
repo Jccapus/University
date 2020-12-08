@@ -6,13 +6,15 @@ Official Rules:
 Before playing the players must pick a character from the choices of diseases available and setup three different piles of cards (which are explained further below)
 These are the strock deck, the event deck and the table
 
+Three Cards in starting hand
+
 At the start of the players turn is the pickup phase where the player has a choice of three actions
 	1. Draw one strock card from the deck
 	2. Choose one card from the table and place a card from the deck onto the table
 	3. Pick up any number of cards and replace them with cards from the hand
 
 After the pickup phase the player can then play:
-	1. All strocks of the same colour onto a single company
+	1. All strocks of the same colour onto a single company or use a cure/ vaccine
 	2. No cards and pass their turn over to the next player
 
 After the player's turn they must pick up an event card
@@ -32,7 +34,7 @@ Characters: A selectable disease that you choose at the start of the game (Can b
 	Strock: Played during a players turn to increase strock into a company (they are colour coded based on the 4 colours of companies)
 	AKA a tally for how much you have in said company
 	Vaccine: Played under a company to reduce the strock intake by one
-	Cure: Played to a company to remove one strock from each player in said company - Player must have one strock in said company
+	Cure: Played to a company to remove as many strock from yourself in said company and then remove that amount times two from other players in that company - Player must have one strock in said company
 	
 	The Table:
 	Five cards from the Strock deck lay here facing up to be an alternative from picking from the strock deck
@@ -49,21 +51,17 @@ Departments are (With companies to put strock into underneath):
 Health(Green):
 Hospital
 Pharmacy
-Dentist
 
 Nautical(Blue):
 Submarine
 Cargo Ship
-Yacht
 
 Tranport(White):
 Train
 Bus
-Car
 
 Aviation(Yellow):
 Planes
-Helicopter
 Rocket
 
 Companies have an infinite amount of strock limit so a player can put as much as they want into a company, but it comes at a risk of losing points at the end from others
