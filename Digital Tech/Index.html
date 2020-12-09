@@ -8,21 +8,19 @@
 	</head>
 	
 	<body>
-	
-	<h2>Fade in Overlay</h2>
-<p>Hover over the image to see the effect.</p>
 
-	
-	
-	
-	<div class="header">
+	<div id="header">
 		<div class="container">
-  <img src="Images/Sphere.png" alt="Avatar" class="image">
-  <div class="overlay">
-    <div class="text">Hello World</div>
-  </div>
-</div>
-
+		<img src="Images/Hover.png" class="image">
+		
+			<div class="overlay">
+			<div class="image">
+			<img src="Images/Welcome.png"</div>
+		
+			</div>
+		</div>
+	</div>
+	
 	<div class="navbar">
 		<a href="#">Projects</a>
 		<a href="#">Link</a>
@@ -30,12 +28,57 @@
 	</div>
 	
 	<div class="row">
-		<div class="side">Just some areas that I can add some words into for your viewing pleasure</div>
-		<div class="main">...</div>
+		<div class="side">About me: My name is Joel Capp and I am a student currently undertaking the course of game design at Bournemouth University.</div>
+		<div class="main">What's next: I aim to become more than capable in the games design industry and to be able to make excellent projects that bring as much enjoyment to others as previous developers have done for me.</div>
 	</div>
 	
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<img src="Images/Sphere.png" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="Images/Cube.png" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="Images/Cylinder.png" style="width:100%">
+		</div>
+
+	</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	
 	<div class="footer">
-		<h2>Footer</h2>
+		<h2>Contact details: TBA</h2>
 	</div>
 	
 	
