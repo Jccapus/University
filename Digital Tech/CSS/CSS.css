@@ -1,16 +1,11 @@
-body {background-color: rgb(100, 100, 100);}
+body {background-color: rgb(100, 100, 100);} /* Makes the background for the whole site dark grey */
 
-.header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: rgb(100, 100, 100); /* green background */
-  color: white; /* white text color */
+#header {
+  padding: 80px; /* Padding for the header */
+  text-align: center; /* Making the header text align to center */
+  color: black; /* Makes the text black */
 }
 
-/* Increase the font size of the <h1> element */
-.header h1 {
-  font-size: 40px;
-}
 
 /* Style the top navigation bar */
 .navbar {
@@ -82,14 +77,15 @@ body {background-color: rgb(100, 100, 100);}
 
 .footer {
   padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+  text-align: left; /* Center text*/
+  background: rgb(200, 200, 200); /* Makes a light grey background */
 }
 
 
 .container {
   position: relative;
   width: 50%;
+  left: 25%;
 }
 
 .image {
@@ -108,21 +104,59 @@ body {background-color: rgb(100, 100, 100);}
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: rgb(92, 92, 92);
 }
 
 .container:hover .overlay {
   opacity: 1;
 }
 
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+	padding: 20px 0px 1px 0px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
 .text {
-  color: white;
-  font-size: 20px;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  bottom: 8px;
+  width: 100%;
   text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
