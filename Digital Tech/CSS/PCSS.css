@@ -1,0 +1,69 @@
+body
+{
+	background-color: rgb(100, 100, 100);
+} /* Makes the background for the whole site dark grey */
+
+#header
+{
+	padding: 10px; /* Padding to give space around header */
+	text-align: center; /* Places the header in the middle*/
+}
+
+.gallery
+{
+  border: 5px solid rgb(0, 0, 0); /*This makes a line around all of the images and descriptions */
+}
+
+.gallery:hover
+{
+  border: 5px dotted rgb(40, 70, 90); /*This turns the line blue and makes it dotted when hovered over */
+}
+
+.gallery img
+{
+  width: 100%; 
+  height: auto; /* These change the style of the images to set their width to 100% inside the box and automatically align the height */
+}
+
+.desc
+{
+  padding: 50px;
+  text-align: middle;
+  font-family: Courier New; /* This controls the style of descriptions under the image */
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+.responsive
+{
+  padding: 10px 6px 10px 10px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px)
+{
+	.responsive 
+	{
+		width: 50%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	.responsive
+	{
+		width: 100%;
+	}
+}
+
+.clearfix:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
