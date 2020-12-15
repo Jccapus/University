@@ -9,40 +9,53 @@ body
 	text-align: center; /* Places the header in the middle*/
 }
 
+.container
+{
+	position: relative;
+	width: 50%;
+	left: 25%;
+} /* This makes the container for the header image and puts it going across the middle of the screen */
+
+.image
+{
+	width: 100%;
+	height: auto;
+} /* This is the style for the project image */
+
 .gallery
 {
-  border: 5px solid rgb(0, 0, 0); /*This makes a line around all of the images and descriptions */
+	border: 5px solid rgb(0, 0, 0); /*This makes a line around all of the images and descriptions */
 }
 
 .gallery:hover
 {
-  border: 5px dotted rgb(40, 70, 90); /*This turns the line blue and makes it dotted when hovered over */
+	border: 5px dotted rgb(40, 70, 90); /*This turns the line blue and makes it dotted when hovered over */
 }
 
 .gallery img
 {
-  width: 100%; 
-  height: auto; /* These change the style of the images to set their width to 100% inside the box and automatically align the height */
+	width: 100%; 
+	height: auto; /* These change the style of the images to set their width to 100% inside the box and automatically align the height */
 }
 
 .desc
 {
-  padding: 50px;
-  text-align: middle;
-  font-family: Courier New; /* This controls the style of descriptions under the image */
+	padding: 50px;
+	text-align: middle;
+	font-family: Courier New; /* This controls the style of descriptions under the image */
 }
 
 *
 {
-  box-sizing: border-box;
+	box-sizing: border-box; /* This makes everything size properly */
 }
 
 .responsive
 {
-  padding: 10px 6px 10px 10px;
-  float: left;
-  width: 25%;
-}
+	padding: 10px 10px 10px 10px;
+	float: left;
+	width: 25%;
+} /* This makes there be four images to a row at max screen size and stacks the next to each other*/
 
 @media only screen and (max-width: 700px)
 {
@@ -59,11 +72,23 @@ body
 	{
 		width: 100%;
 	}
+} /*The above and this change the layout depending on how small the screen is with this showing the images one above another */
+
+#footer
+{
+	position: float;
+	padding: 20px; 
+	bottom: 5px;
+	text-align: left;
+	background: rgb(200, 200, 200); 
+} /* This adds style to the footer */
+
+.textbig
+{
+	font-size: 30;
 }
 
-.clearfix:after
+.textsmall
 {
-  content: "";
-  display: table;
-  clear: both;
+	font-size: 20:
 }
