@@ -12,15 +12,13 @@
 
 	<div id="header">
 	
-		<div class="container">
-		<img src="Images/Hover.png" class="image">
+		<div class="container"> <!-- This is the container for the hover over images and effect -->
+		<img src="Images/Hover.png" class="image"> <!-- This is the starting image -->
 		
-			<div class="overlay">
+			<div class="overlay"> <!-- This is the container for the hovered over image -->
 			
-				<div class="image">
-					<img src="Images/Welcome.png" class="image">
+					<img src="Images/Welcome.png" class="image"> <!-- This is the hovered over image -->
 				
-				</div>
 			</div>
 		</div>
 	</div>
@@ -29,13 +27,13 @@
 		<a href="Projects.html">Projects</a>
 		<a href="#">Link</a>
 		<a href="#" class="right">Mystery Link</a>
-		<a href="#" class="right">TBA</a>
+		<a href="#" class="right">TBA</a>			<!-- These are the link on the navbar -->
 	</div>
 	
 	<div class="row">
 		<div class="side">About me: My name is Joel Capp and I am a student currently undertaking the course of game design at Bournemouth University.</div>
 		<div class="main">What's next: I aim to become more than capable in the games design industry and to be able to make excellent projects that bring as much enjoyment to others as previous developers have done for me.</div>
-	</div>
+	</div>		<!-- These are the descriptions under the navbar -->
 	
 	<div class="slideshow-container">
 
@@ -49,41 +47,33 @@
 
 		<div class="mySlides fade">
 			<img src="Images/Cylinder.png" style="width:100%">
-		</div>
+		</div>			<!-- These are the different images that are shown in the slideshow -->
 
 	</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
 
 <script>
 var slideIndex = 0;
-showSlides();
+StartSlide();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+function StartSlide() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++)
+	{
+		x[i].style.display = "none";
+	}
+	slideIndex++;
+	if (slideIndex > x.length) {slideIndex = 1}
+	x[slideIndex-1].style.display = "block";
+	setTimeout(StartSlide, 2000);			<!-- This creates the slideshow that changes image every 2 seconds -->
 }
 </script>
 	
-	<div class="footer">
-		<h2>Contact details: TBA</h2>
+	<div id="footer">
+		<div class="textbig">Contact Details
+		</div>
+		<div class="textsmall">Email: <br> Phone:
+		</div>
 	</div>
 	
 	
