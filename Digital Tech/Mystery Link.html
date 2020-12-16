@@ -1,0 +1,135 @@
+<html>
+	<head>
+		<title>Mystery</title>
+		
+		<link rel="stylesheet" href="CSS/MCSS.css" />
+		
+		<script>
+			
+			var playerImage;
+			var x = 10;
+			var frameNumber = 0;
+			
+			function load()
+			{
+				playerImage = new Image();
+				
+				playerImage.src ="Images/player.png";
+			}
+			
+			function main()
+			{
+				load();
+			
+				var canvas = document.getElementById("canvas");
+				canvas.width = 640;
+				canvas.height = 480;
+				
+				var ctx = canvas.getContext("2d");
+				
+				draw(ctx);
+			}
+			
+			
+			function draw(ctx)
+			{
+				ctx.fillStyle ="black";
+				ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+				
+				var frameWidth = playerImage.width / 8;
+				var frameHeight = playerImage.height;
+				
+				ctx.drawImage(playerImage, 
+				frameNumber * frameWidth, 0, 
+				frameWidth, frameHeight,
+				x, 50,
+				200, 200);
+				
+				
+				
+				frameNumber++;
+				if (frameNumber > 7)
+				{
+					frameNumber = 0;
+				}
+				
+				window.requestAnimationFrame(function(){draw(ctx);});
+			}
+			
+			function keydown(event)
+			{
+				if(event.key == "ArrowLeft")
+				
+				{
+					x -= 5;	
+				}
+				
+				else if(event.key == "ArrowRight")	
+				{
+					x += 5;
+				}
+			}
+
+			
+			window.onload = main;
+			window.addEventListener("keydown", keydown);
+		</script>
+		
+		
+		
+		
+		
+	</head>
+	
+	<body>
+		<div>
+			<button type="button">
+			<a href="Index.html">Go back</a> <!-- This creates a button to go back to the index page -->
+		</div>
+		
+		<div id="header">
+			<div class="container">
+			<img src="Images/Mystery.png" class="image" > <!-- This creates the header with the image that says "Mystery" -->
+			</div>
+		</div>
+		
+		<div class="textmiddle"> I wanted to test a canvas for a spritesheet on this page
+		</div>
+		
+		<div>
+			<canvas id="canvas"></canvas>
+		</div>
+			
+		<div id="footer">
+			<div class="textbig">Contact Details
+			</div>
+			<div class="textsmall">Email: <br> Phone:
+			</div>
+		</div>
+	
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+
+
+
+</html>
